@@ -1,0 +1,13 @@
+{
+    "name": "webapp",
+    "description": "This is a web app. And it's the best!",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[learn_chef_cookbook]"
+    ]
+}
